@@ -13,6 +13,5 @@ function assignGrade(score) {
 };
 
 for (nr = 60; nr <= 100; nr++) {
-    grade = assignGrade(nr);
-    console.log("Voor " + nr + " punten, krijg je een " + grade);
+    console.log("Voor " + nr + " punten, krijg je een " + assignGrade(nr));
 };
